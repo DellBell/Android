@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:paddingTop="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <TextView 
+        android:id="@+id/tvBanner"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+    	android:text="@string/tv_pic_desc_banner"
+    	android:gravity="center" 
+    	android:textSize="20dp"
+    	android:paddingBottom="10dp"/>
+    	    
+     <LinearLayout
+        android:id="@+id/imageFrame"
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="6"
+        android:orientation="vertical" />
+
+     <LinearLayout
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+        
+          <Button
+              android:id="@+id/bPop1"
+		      android:layout_width="fill_parent"
+		      android:layout_height="wrap_content"
+		      android:layout_weight="1"
+		      android:text="@string/poppy_1" />
+           
+          <Button
+              android:id="@+id/bPop2"
+		      android:layout_width="fill_parent"
+		      android:layout_height="wrap_content"
+		      android:layout_weight="1"
+		      android:text="@string/poppy_2" />
+    </LinearLayout>
+     
+</LinearLayout>

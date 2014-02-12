@@ -1,0 +1,51 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="bottom"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/bFrag"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/start_fragment" 
+        android:onClick="startFragment"/>
+    
+    <Button
+        android:id="@+id/bVibration"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/vibration" 
+        android:onClick="vibration" />
+    
+    <Button
+        android:id="@+id/bCam"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/start_cam"
+        android:onClick="camera" />
+    
+    <Button
+        android:id="@+id/bActivity"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/start_activity" 
+        android:onClick="startNewActivity" />
+
+    <Button
+        android:id="@+id/bNotification"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/notification" 
+        android:onClick="notification"/>
+
+    
+    
+    
+</LinearLayout>
